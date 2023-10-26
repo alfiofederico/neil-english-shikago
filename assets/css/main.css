@@ -2773,3 +2773,8 @@ section {
   color: var(--contrast-color);
   background-color: rgba(var(--primary-color-rgb), 0.8);
 }
+
+
+.new-logo {
+  font-family: 'Kaisei Opti', serif;
+}
