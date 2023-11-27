@@ -718,7 +718,7 @@
             </div>
 
             <div class="col-lg-6">
-              <form name="contact" action="/success.html" method="POST" class="php-email-form" data-aos="fade-up" data-aos-delay="200" data-netlify="true">
+              <form name="contact" action="/success.html" method="POST" class="php-email-form" data-aos="fade-up" data-aos-delay="200" data-netlify="true" data-netlify-recaptcha="true">
                 <div class="row gy-4">
 
                   <div class="col-md-6">
@@ -744,6 +744,10 @@
                   <div class="col-md-6">
                     <input type="text" class="form-control" name="phone" placeholder="Telephone" required>
                   </div>
+                  
+                   
+                   <div data-netlify-recaptcha="true"></div>
+  
 
                   <div class="col-md-12">
                     <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
