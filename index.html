@@ -66,13 +66,13 @@
             <li><a href="index.html#services">レッスン</a></li>
             <li><a href="index.html#portfolio">Gallery</a></li>
             <li><a href="blog.html">ブログ</a></li>
-            <li><a href="index.html#contact">申し込み</a></li>
+            <li><a href="index.html#contact-form">申し込み</a></li>
           </ul>
 
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav><!-- End Nav Menu -->
 
-        <a class="btn-getstarted" href="index.html#contact">申し込み</a>
+        <a class="btn-getstarted" href="index.html#contact-form">申し込み</a>
 
       </div>
     </header><!-- End Header -->
@@ -719,7 +719,7 @@
             </div><!-- End post list item -->
 
             <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-              <article>
+<!--               <article>
 
                 <div class="post-img">
                   <img src="assets/img/opening_ceremony.webp" alt="Opening Ceremony" class="img-fluid">
@@ -741,7 +741,7 @@
                   </div>
                 </div>
 
-              </article>
+              </article> -->
             </div><!-- End post list item -->
 
             <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
@@ -842,7 +842,7 @@
             </div>
 
             <div class="col-lg-6">
-              <form name="contact" action="/success.html" method="POST" class="php-email-form" data-aos="fade-up" data-aos-delay="200" data-netlify="true" data-netlify-recaptcha="true">
+              <form name="contact" action="/success.html" method="POST" class="php-email-form" data-aos="fade-up" data-aos-delay="200" data-netlify="true" data-netlify-recaptcha="true" id="contact-form">
                 <div class="row gy-4">
 
                   <div class="col-md-6">
@@ -893,7 +893,9 @@
                     <textarea class="form-control" name="details" rows="6" placeholder="詳細" required></textarea>
                   </div>
 
-
+                  <div class="col-md-12">
+                    <input type="text" class="form-control" name="line" placeholder="LINE ID" required>
+                  </div>
          
 
 
